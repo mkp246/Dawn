@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="PowerAmp" />
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Camera" />
+    <item
+        android:id="@+id/radio"
+        android:title="Radio" />
+    <item
+        android:id="@+id/aboutUs"
+        android:title="About Us" />
+    <item
+        android:id="@+id/preferences"
+        android:title="Preferences" />
+    <item
+        android:id="@+id/gfx"
+        android:title="GFX" />
+    <item
+        android:id="@+id/gfxSurface"
+        android:title="GFX Surface" />
+    <item
+        android:id="@+id/soundStuff"
+        android:title="Sound Stuff" />
+    <item
+        android:id="@+id/slider"
+        android:title="Slider" />
+    <item
+        android:id="@+id/tabs"
+        android:title="Tabs" />
+    <item
+        android:id="@+id/browser"
+        android:title="Browser" />
+    <item
+        android:id="@+id/flipper"
+        android:title="Flipper" />
+    <item
+        android:id="@+id/sharedPrefs"
+        android:title="Shared Prefs" />
+    <item
+        android:id="@+id/internalData"
+        android:title="Internal Data" />
+    <item
+        android:id="@+id/externalData"
+        android:title="External Data" />
+</menu>
