@@ -69,6 +69,12 @@
         <activity
             android:name=".ExternalData"
             android:label="External Data" />
+        <activity
+            android:name=".SQLiteExample"
+            android:label="SQLite" />
+        <activity
+            android:name=".SQLView"
+            android:label="SQLView" />
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>

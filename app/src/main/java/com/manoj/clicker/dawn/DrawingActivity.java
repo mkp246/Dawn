@@ -80,6 +80,9 @@ public class DrawingActivity extends AppCompatActivity {
         } else if (menuItem.getItemId() == R.id.externalData) {
             Intent p = new Intent(this, ExternalData.class);
             startActivity(p);
+        } else if (menuItem.getItemId() == R.id.sqliteexample) {
+            Intent p = new Intent(this, SQLiteExample.class);
+            startActivity(p);
         }
         return true;
     }
