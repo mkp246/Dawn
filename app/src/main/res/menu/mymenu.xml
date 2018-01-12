@@ -51,4 +51,28 @@
     <item
         android:id="@+id/sqliteexample"
         android:title="SQLite" />
+    <item
+        android:id="@+id/accelerate"
+        android:title="Accelerate" />
+    <item
+        android:id="@+id/httpexample"
+        android:title="Http Example" />
+    <item
+        android:id="@+id/glexample"
+        android:title="GL Example" />
+    <item
+        android:id="@+id/glcubeexample"
+        android:title="GL Cube Example" />
+    <item
+        android:id="@+id/voice"
+        android:title="Voice" />
+    <item
+        android:id="@+id/textvoice"
+        android:title="Text Voice" />
+    <item
+        android:id="@+id/statusbar"
+        android:title="Status Bar" />
+    <item
+        android:id="@+id/seekbarvolume"
+        android:title="Seek Bar Volume" />
 </menu>

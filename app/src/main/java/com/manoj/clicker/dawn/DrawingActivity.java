@@ -83,6 +83,30 @@ public class DrawingActivity extends AppCompatActivity {
         } else if (menuItem.getItemId() == R.id.sqliteexample) {
             Intent p = new Intent(this, SQLiteExample.class);
             startActivity(p);
+        } else if (menuItem.getItemId() == R.id.accelerate) {
+            Intent p = new Intent(this, Accelerate.class);
+            startActivity(p);
+        } else if (menuItem.getItemId() == R.id.httpexample) {
+            Intent p = new Intent(this, HttpExample.class);
+            startActivity(p);
+        } else if (menuItem.getItemId() == R.id.glexample) {
+            Intent p = new Intent(this, GLExample.class);
+            startActivity(p);
+        } else if (menuItem.getItemId() == R.id.glcubeexample) {
+            Intent p = new Intent(this, GLCubeEx.class);
+            startActivity(p);
+        } else if (menuItem.getItemId() == R.id.voice) {
+            Intent p = new Intent(this, Voice.class);
+            startActivity(p);
+        } else if (menuItem.getItemId() == R.id.textvoice) {
+            Intent p = new Intent(this, TextVoice.class);
+            startActivity(p);
+        } else if (menuItem.getItemId() == R.id.statusbar) {
+            Intent p = new Intent(this, StatusBar.class);
+            startActivity(p);
+        } else if (menuItem.getItemId() == R.id.seekbarvolume) {
+            Intent p = new Intent(this, SeekBarVolume.class);
+            startActivity(p);
         }
         return true;
     }
